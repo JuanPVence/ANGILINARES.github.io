@@ -1,0 +1,162 @@
+
+body{
+    background-image:url(imagenes/fondo.jpeg);/*Pon en este punto la direccion de la nueva foto que quieres poner de fondo de pantalla, guardala imagen con un nombre claro y en la carpeta imagenes*/
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-weight: bold;
+}
+h1{
+    color: beige;
+    font-size: 45px;
+}
+ul li{
+    display: inline-block;
+    padding: 0px 20px; 
+}
+a{
+    color: beige;
+    text-decoration: none;
+
+}
+a:hover{ 
+    color: aquamarine;
+}
+p{
+    color: floralwhite;
+    justify-content: center;
+}
+
+h1,h2,h3{
+    color: bisque;
+    text-align: justify;
+
+}
+   
+
+.tarjeta {
+    width: 80%; 
+    margin: 0 auto; 
+    background-color: rgba(0, 0, 0, 0.4); 
+    padding: 20px; 
+    border-radius: 10px; 
+    display: center;
+    
+}
+
+.compact h2, .compact h3 {
+    color: rgb(255, 240, 155);
+    margin-bottom: 5px;
+    text-align: center;
+   
+}
+
+.compact p {
+    color: floralwhite;
+    text-align: justify;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.compact a {
+    color: rgb(154, 153, 102);
+    text-decoration: none;
+}
+
+.compact a:hover {
+    color: aquamarine;
+}
+.seccion{
+    margin-bottom: 20px;
+}
+
+.saber{
+    color: black;
+    border: none;
+    font-size: 30px;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0.8;
+    border-radius: 10px;
+    width: 200px;
+    height: 80px;
+    border-radius: 50;
+    background:  #31a573;
+}
+
+.saber:hover{
+    background-color:  #90ee90;
+    opacity: 0.5;
+}
+
+.carrusel{
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: scroll;
+}
+
+.elemento{
+    flex: 1 0 auto;
+    margin: 0 50px ;
+    width: 300px ;
+    height: 300px ;
+}
+
+main{
+    min-height: 60vh;
+}
+
+footer{
+    padding: 15px;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+}
+
+footer h3{
+    left: 50%;
+}
+.contact-form {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+.contact-form label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.contact-form button {
+    background-color: #5cb85c;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.contact-form button:hover {
+    background-color: #4cae4c;
+}
